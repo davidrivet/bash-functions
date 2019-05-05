@@ -10,7 +10,8 @@ Then add the following line to your .bashrc file. Run bash or start a new termin
 
 All this can be performed manually or by running the following command just after having cloned the repo.
 
-cd bash-functions | sed -i "s/^PATH_TO_FILES=.*/PATH_TO_FILES=$(pwd | sed 's/\//\\\//g')/g" bash.myfunctions.sh | echo "source $(pwd)/bash.myfunctions.sh" >> ~/.bashrc
- | cd ..
+```bash
+cd bash-functions && sed -i "s/^PATH_TO_FILES=.*/PATH_TO_FILES=$(pwd | sed 's/\//\\\//g')/g" bash.myfunctions.sh && echo "source $(pwd)/bash.myfunctions.sh" >> ~/.bashrc && cd ..
+```
  
  
