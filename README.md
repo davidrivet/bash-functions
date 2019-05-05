@@ -1,6 +1,6 @@
 # bash-functions
 
-Some bash functions to make some reccurrent terminal interactions faster.
+Some bash functions to make some recurrent terminal interactions simpler/faster.
 
 # Usage
 
